@@ -1,0 +1,9 @@
+table {
+  border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+  border: 1px solid black; /*устанавливаем для таблицы внешнюю границу серого черного толщиной 1px*/
+}
+
+th,
+td {
+  border: 1px solid grey;
+}
