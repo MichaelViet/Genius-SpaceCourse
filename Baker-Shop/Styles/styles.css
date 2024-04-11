@@ -15,12 +15,42 @@ body {
   line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 address {
   font-style: normal;
 }
 
 ul {
   list-style-type: none;
+}
+
+/* Section */
+.section {
+  padding: 48px 0;
+}
+
+/* Header */
+.header-link {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  line-height: 1.5;
+}
+.header-link:hover {
+  color: var(--color-brand);
+  font-weight: 600;
 }
 
 /* Button */
@@ -48,19 +78,13 @@ ul {
   cursor: pointer;
 }
 
-/* Header */
-.header-link {
-  color: var(--color-primary-light);
-  text-decoration: none;
-  line-height: 1.5;
-}
-.header-link:hover {
-  color: var(--color-brand);
-  font-weight: 600;
-}
-
 /* Hero section */
 .hero-section {
+  padding: 272px 0;
+}
+
+.hero-title {
+  margin-bottom: 0;
   color: var(--color-primary-light);
   text-align: center;
   font-size: 128px;
