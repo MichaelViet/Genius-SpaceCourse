@@ -5,6 +5,7 @@
   --color-brand-text: #465929;
   --color-link-footer: #a18268;
   --color-secondary-light: #cfcfbc;
+  --color-secondary-dark: #a18268;
 }
 
 /* Base */
@@ -217,7 +218,7 @@ ul {
 
 .chefs-title {
   max-width: 540px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 .chefs-title::before,
@@ -226,6 +227,13 @@ ul {
   width: 352px;
   border: 2px solid var(--color-secondary-light);
   content: '';
+}
+
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  border: 1px 0px 0px 0px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light),
+    -16px 16px 0 1px var(--color-secondary-dark);
 }
 
 /* Formats section */
